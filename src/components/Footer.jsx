@@ -1,8 +1,8 @@
 import React from 'react';
-import { ShieldCheck, Phone, MessageCircle, MapPin, Heart } from 'lucide-react';
+import { ShieldCheck, Phone, Heart } from 'lucide-react';
 
 export default function Footer({ onOpenTerms }) {
-  const phone = '8884888805';
+  const phone = '7996151633';
 
   return (
     <footer className="footer">
@@ -16,10 +16,10 @@ export default function Footer({ onOpenTerms }) {
               <div style={{ width: '36px', height: '36px', borderRadius: '50%', backgroundColor: 'var(--bg-accent-tan)', color: '#FFF', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <ShieldCheck size={20} />
               </div>
-              <span style={{ fontSize: '1.4rem', fontWeight: '700', color: '#FFF', fontFamily: 'var(--font-serif)' }}>WILLOW NEST</span>
+              <span style={{ fontSize: '1.4rem', fontWeight: '700', color: '#FFF', fontFamily: 'var(--font-serif)' }}>IVORY NEST</span>
             </div>
             <p style={{ fontSize: '0.9rem', color: '#A0B2A3', lineHeight: '1.6', marginBottom: '20px' }}>
-              Willow Nest: Premium Girls PG Near BMS Engineering College, Basavanagudi. Highly secure, clean, and homely accommodation just a 3-minute walk from BMSCE main gate.
+              Ivory Nest: Safe & Premium Girls PG located in Ashoknagar, Banashankari (Opp. Post Office). Highly secure, hygienic, and homely accommodation.
             </p>
             <div style={{ display: 'flex', gap: '12px' }}>
               <a href={`tel:${phone}`} className="btn btn-secondary" style={{ padding: '8px 16px', fontSize: '0.82rem', backgroundColor: 'rgba(255,255,255,0.1)', color: '#FFF', border: 'none' }}>
@@ -36,7 +36,7 @@ export default function Footer({ onOpenTerms }) {
               <li><a href="#rooms">Room Types</a></li>
               <li><a href="#pricing">Pricing Plans</a></li>
               <li><a href="#amenities">Amenities</a></li>
-              <li><a href="#location">Walk-Time & Map</a></li>
+              <li><a href="#location">Location & Map Link</a></li>
             </ul>
           </div>
 
@@ -47,7 +47,7 @@ export default function Footer({ onOpenTerms }) {
               <li><button onClick={onOpenTerms}>Terms & Conditions</button></li>
               <li><button onClick={onOpenTerms}>Safety & Gate Curfew Policy</button></li>
               <li><button onClick={onOpenTerms}>Deposit & Refund Rules</button></li>
-              <li><a href="#reviews">Student Testimonials</a></li>
+              <li><a href="#reviews">Resident Testimonials</a></li>
               <li><a href="#contact">Contact Owner</a></li>
             </ul>
           </div>
@@ -56,15 +56,15 @@ export default function Footer({ onOpenTerms }) {
           <div>
             <h4>Contact Srinivas G</h4>
             <p style={{ fontSize: '0.88rem', color: '#A0B2A3', marginBottom: '12px' }}>
-              <strong>Willow Nest Girls PG</strong><br />
-              Near BMSCE Main Gate, Bull Temple Road,<br />
-              Basavanagudi, Bengaluru - 560004
+              <strong>Ivory Nest Girls PG</strong><br />
+              1358/A, 6th cross, Opp Ashoknagar post office,<br />
+              Ashoknagar, Banashankari, Bangalore - 560050
             </p>
             <p style={{ fontSize: '0.88rem', color: '#A0B2A3', marginBottom: '8px' }}>
-              📞 Phone: <strong>8884888805</strong>
+              📞 Phone: <strong>7996151633</strong>
             </p>
             <p style={{ fontSize: '0.88rem', color: '#A0B2A3' }}>
-              💬 WhatsApp: <strong>8884888805</strong>
+              💬 WhatsApp: <strong>7996151633</strong>
             </p>
           </div>
 
@@ -73,10 +73,10 @@ export default function Footer({ onOpenTerms }) {
         {/* Footer Bottom Bar */}
         <div className="footer-bottom">
           <div>
-            © {new Date().getFullYear()} Willow Nest Girls PG Basavanagudi. All Rights Reserved.
+            © {new Date().getFullYear()} Ivory Nest Girls PG Banashankari. All Rights Reserved.
           </div>
           <div>
-            Designed with <Heart size={14} color="#D4A373" style={{ display: 'inline', verticalAlign: 'middle' }} /> for BMSCE Female Students
+            Designed with <Heart size={14} color="#D4A373" style={{ display: 'inline', verticalAlign: 'middle' }} /> for Female Residents & Students
           </div>
         </div>
 

@@ -3,8 +3,8 @@ import { Phone, MessageCircle, ShieldCheck, Menu, X } from 'lucide-react';
 
 export default function Navbar({ onOpenTerms }) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const phone = '8884888805';
-  const whatsappUrl = `https://wa.me/918884888805?text=${encodeURIComponent('Hello Srinivas Sir, I am inquiring about Willow Nest Girls PG near BMSCE.')}`;
+  const phone = '7996151633';
+  const whatsappUrl = `https://wa.me/917996151633?text=${encodeURIComponent('Hello Srinivas Sir, I am inquiring about Ivory Nest Girls PG in Ashoknagar, Banashankari.')}`;
 
   return (
     <>
@@ -13,7 +13,7 @@ export default function Navbar({ onOpenTerms }) {
         <div className="top-announcement-track">
           <div className="top-announcement-content">
             <span>✦ Admissions Open 2026</span>
-            <span className="highlight">3-Min Walk to BMSCE Main Gate</span>
+            <span className="highlight">Opp. Ashoknagar Post Office, Banashankari</span>
             <span className="phone-quick">📞 Call: <a href={`tel:${phone}`}>{phone}</a></span>
             <span className="sep">•</span>
             <span>✦ Biometric Safety & 24/7 CCTV</span>
@@ -21,7 +21,7 @@ export default function Navbar({ onOpenTerms }) {
           </div>
           <div className="top-announcement-content" aria-hidden="true">
             <span>✦ Admissions Open 2026</span>
-            <span className="highlight">3-Min Walk to BMSCE Main Gate</span>
+            <span className="highlight">Opp. Ashoknagar Post Office, Banashankari</span>
             <span className="phone-quick">📞 Call: <a href={`tel:${phone}`}>{phone}</a></span>
             <span className="sep">•</span>
             <span>✦ Biometric Safety & 24/7 CCTV</span>
@@ -38,8 +38,8 @@ export default function Navbar({ onOpenTerms }) {
               <ShieldCheck size={22} />
             </div>
             <div className="logo-text">
-              WILLOW NEST
-              <span className="logo-sub">GIRLS PG • BASAVANAGUDI</span>
+              IVORY NEST
+              <span className="logo-sub">GIRLS PG • BANASHANKARI</span>
             </div>
           </a>
 
@@ -47,8 +47,9 @@ export default function Navbar({ onOpenTerms }) {
           <ul className="nav-links">
             <li><a href="#rooms">Rooms & Pricing</a></li>
             <li><a href="#amenities">Amenities</a></li>
-            <li><a href="#location">Location & Walk-Time</a></li>
+            <li><a href="#location">Location & Map</a></li>
             <li><a href="#contact">Contact Us</a></li>
+            <li><button onClick={onOpenTerms} style={{ background: 'none', border: 'none', font: 'inherit', color: 'inherit', cursor: 'pointer' }}>Terms & Rules</button></li>
           </ul>
 
           {/* Desktop Nav Actions */}
@@ -92,7 +93,7 @@ export default function Navbar({ onOpenTerms }) {
               <ul className="mobile-nav-list">
                 <li><a href="#rooms" onClick={() => setMobileMenuOpen(false)}>Rooms & Pricing</a></li>
                 <li><a href="#amenities" onClick={() => setMobileMenuOpen(false)}>Amenities & Safety</a></li>
-                <li><a href="#location" onClick={() => setMobileMenuOpen(false)}>Location & 3-Min Walk</a></li>
+                <li><a href="#location" onClick={() => setMobileMenuOpen(false)}>Location & Map</a></li>
                 <li><a href="#contact" onClick={() => setMobileMenuOpen(false)}>Contact Us</a></li>
               </ul>
               <div style={{ padding: '16px 20px', borderTop: '1px solid var(--border-light)', display: 'flex', gap: '12px' }}>

@@ -1,8 +1,8 @@
 import React from 'react';
-import { ArrowRight, MapPin, Shield, Star, CheckCircle, Clock } from 'lucide-react';
+import { ArrowRight, MapPin, Shield, Star, CheckCircle } from 'lucide-react';
 
 export default function HeroSection() {
-  const whatsappUrl = `https://wa.me/918884888805?text=${encodeURIComponent('Hello Srinivas Sir, I want to book a visit for Willow Nest Girls PG near BMSCE.')}`;
+  const whatsappUrl = `https://wa.me/917996151633?text=${encodeURIComponent('Hello Srinivas Sir, I want to book a visit for Ivory Nest Girls PG in Ashoknagar, Banashankari.')}`;
 
   return (
     <section className="hero-section" id="hero">
@@ -13,18 +13,18 @@ export default function HeroSection() {
           <div className="hero-text-col">
             <div className="sub-tag">
               <Shield size={16} />
-              SAFE, SECURE & HOMELY STUDENT HOUSING
+              SAFE, SECURE & HOMELY ACCOMMODATION
             </div>
 
             <h1 className="hero-heading">
-              Willow Nest: Premium Girls PG Near BMS Engineering College, Basavanagudi
+              Ivory Nest: Premium Girls PG near BMS Engineering College, Basavanagudi
             </h1>
 
-            {/* The Walk-Time Factor Highlight */}
+            {/* Location Advantage Badge */}
             <div className="walk-time-hero-badge">
               <span className="pulse-dot"></span>
-              <Clock size={20} />
-              <span>Just a 3-minute walk from the BMSCE main gate!</span>
+              <MapPin size={20} />
+              <span>Opposite Ashoknagar Post Office, Banashankari, Bangalore!</span>
             </div>
 
             {/* Action Buttons */}
@@ -63,7 +63,7 @@ export default function HeroSection() {
                   <span style={{ color: 'var(--text-main)', marginLeft: '6px' }}>4.9 / 5.0</span>
                 </div>
                 <div style={{ fontSize: '0.82rem', color: 'var(--text-muted)' }}>
-                  Trusted by 200+ BMSCE Female Students & Parents
+                  Trusted by 200+ Female Students & Parents
                 </div>
               </div>
             </div>
@@ -76,8 +76,8 @@ export default function HeroSection() {
             {/* Top Arch Element (Desktop Only) */}
             <div className="hero-arch-decor">
               <img 
-                src="/images/girls-pg-dining-food-area.jpg" 
-                alt="safe-girls-pg-near-bmsce" 
+                src="/images/pg-triple-sharing-room.jpg" 
+                alt="safe-girls-pg-room-banashankari" 
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />
             </div>
@@ -85,8 +85,8 @@ export default function HeroSection() {
             {/* Main Rounded Image */}
             <div className="hero-main-img-card">
               <img 
-                src="/images/girls-pg-hero-room.png" 
-                alt="best-female-student-accommodation-basavanagudi" 
+                src="/images/pg-double-sharing-room.jpg" 
+                alt="best-female-accommodation-ashoknagar-banashankari" 
                 style={{ width: '100%', height: '100%', objectFit: 'cover' }}
               />
               <div className="hero-img-caption">
@@ -122,7 +122,7 @@ export default function HeroSection() {
                   <span style={{ color: 'var(--text-main)', marginLeft: '6px' }}>4.9 / 5.0</span>
                 </div>
                 <div style={{ fontSize: '0.82rem', color: 'var(--text-muted)' }}>
-                  Trusted by 200+ BMSCE Female Students & Parents
+                  Trusted by 200+ Female Students & Parents
                 </div>
               </div>
             </div>
@@ -137,20 +137,20 @@ export default function HeroSection() {
                 flexShrink: 0
               }}>
                 <img 
-                  src="/images/girls-pg-double-room-basavanagudi.jpg" 
-                  alt="girls-hostel-near-bms-engineering-college" 
+                  src="/images/pg-single-twin-room.jpg" 
+                  alt="girls-pg-ashoknagar-banashankari" 
                   style={{ width: '100%', height: '100%', objectFit: 'cover' }}
                 />
               </div>
               <div>
                 <div style={{ fontSize: '0.72rem', textTransform: 'uppercase', color: 'var(--bg-accent-tan)', fontWeight: '700' }}>
-                  WALK-TIME FACTOR
+                  PRIME LANDMARK
                 </div>
                 <div style={{ fontSize: '0.88rem', fontWeight: '700', color: 'var(--text-main)' }}>
-                  3 Mins to BMSCE Gate
+                  Opp. Ashoknagar Post Office
                 </div>
                 <a href="#location" style={{ fontSize: '0.78rem', color: 'var(--bg-accent-dark)', fontWeight: '600', textDecoration: 'none' }}>
-                  Explore Proximity →
+                  View Map Location →
                 </a>
               </div>
             </div>

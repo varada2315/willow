@@ -1,9 +1,9 @@
 import React from 'react';
-import { Phone, MessageCircle, MapPin } from 'lucide-react';
+import { Phone, MessageCircle } from 'lucide-react';
 
 export default function MobileStickyCTA() {
-  const phone = '8884888805';
-  const whatsappUrl = `https://wa.me/918884888805?text=${encodeURIComponent('Hello Srinivas Sir, I am inquiring about Willow Nest Girls PG near BMSCE.')}`;
+  const phone = '7996151633';
+  const whatsappUrl = `https://wa.me/917996151633?text=${encodeURIComponent('Hello Srinivas Sir, I am inquiring about Ivory Nest Girls PG in Ashoknagar, Banashankari.')}`;
 
   return (
     <div className="mobile-sticky-bar">

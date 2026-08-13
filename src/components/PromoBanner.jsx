@@ -1,10 +1,10 @@
 import React from 'react';
-import { ArrowRight, Sparkles, PhoneCall } from 'lucide-react';
+import { Sparkles, PhoneCall } from 'lucide-react';
 
 export default function PromoBanner() {
   const whatsappBooking = () => {
-    const text = encodeURIComponent('Hello Srinivas Sir, I want to reserve a bed at Willow Nest Girls PG near BMSCE for the upcoming batch.');
-    window.open(`https://wa.me/918884888805?text=${text}`, '_blank');
+    const text = encodeURIComponent('Hello Srinivas Sir, I want to reserve a bed at Ivory Nest Girls PG in Ashoknagar, Banashankari.');
+    window.open(`https://wa.me/917996151633?text=${text}`, '_blank');
   };
 
   return (
@@ -17,27 +17,27 @@ export default function PromoBanner() {
           </div>
 
           <h2>
-            BMSCE Student Housing: Safe, Premium & Convenient
+            Ivory Nest Girls PG: Safe, Premium & Convenient
           </h2>
 
           <p>
-            Experience hassle-free student living just 3 minutes away from BMS Engineering College main entrance. Everything you need is included in your single monthly rent.
+            Experience hassle-free female living located right opposite the Ashoknagar post office in Banashankari. Everything you need is included in your single monthly rent.
           </p>
 
           <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
             <button onClick={whatsappBooking} className="btn btn-tan">
               Reserve Your Bed →
             </button>
-            <a href="tel:8884888805" className="btn btn-secondary" style={{ backgroundColor: 'transparent', color: '#FFF', borderColor: 'rgba(255,255,255,0.3)' }}>
-              <PhoneCall size={16} /> Call 8884888805
+            <a href="tel:7996151633" className="btn btn-secondary" style={{ backgroundColor: 'transparent', color: '#FFF', borderColor: 'rgba(255,255,255,0.3)' }}>
+              <PhoneCall size={16} /> Call 7996151633
             </a>
           </div>
         </div>
 
         <div style={{ position: 'relative' }}>
           <img 
-            src="/images/girls-pg-double-room-basavanagudi.jpg" 
-            alt="girls-pg-double-room-basavanagudi" 
+            src="/images/pg-triple-sharing-room.jpg" 
+            alt="girls-pg-ashoknagar-banashankari" 
             className="dark-banner-img"
           />
         </div>

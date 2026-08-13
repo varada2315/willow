@@ -1,25 +1,25 @@
 import React from 'react';
-import { Star, Quote, ShieldCheck } from 'lucide-react';
+import { Star } from 'lucide-react';
 
 export default function ReviewsSection() {
   const reviews = [
     {
       name: 'Ananya Sharma',
-      role: 'BMSCE Computer Science (3rd Year)',
+      role: 'Software Engineer & Resident',
       rating: 5,
-      comment: 'The 3-minute walk to BMSCE is a absolute lifesaver during lab exams and early morning 8 AM classes. The food feels like home and Srinivas Uncle is very caring about security.'
+      comment: 'The location near Ashoknagar post office in Banashankari is extremely convenient. The food feels like home and Srinivas Uncle is very caring about safety and security.'
     },
     {
       name: 'Pooja Kulkarni',
-      role: 'BMSCE Information Science (2nd Year)',
+      role: 'Final Year Student & Resident',
       rating: 5,
-      comment: 'Very safe environment with biometric entrance and 24/7 lady warden. Rooms are super clean, wi-fi speed is excellent for study and project work!'
+      comment: 'Very safe environment with biometric entrance and 24/7 lady warden. Rooms are super clean, Wi-Fi speed is excellent for study and project work!'
     },
     {
       name: 'Dr. Ramesh & Sunitha Rao',
-      role: 'Parents of BMSCE Biotech Student',
+      role: 'Parents of Resident',
       rating: 5,
-      comment: 'As parents sending our daughter from North India to Bangalore, security was our top concern. Willow Nest is peaceful, clean, and extremely secure. Highly recommended!'
+      comment: 'As parents sending our daughter to Bangalore, security was our top concern. Ivory Nest is peaceful, clean, and extremely secure. Highly recommended!'
     }
   ];
 
@@ -32,7 +32,7 @@ export default function ReviewsSection() {
             ✦ TRUST & RATINGS
           </div>
           <h2 className="section-title" style={{ marginBottom: '16px' }}>
-            Loved by 200+ BMSCE Female Students & Parents
+            Loved by 200+ Female Residents & Parents
           </h2>
           <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', backgroundColor: 'var(--bg-card)', padding: '8px 20px', borderRadius: '999px', border: '1px solid var(--border-light)', boxShadow: 'var(--shadow-sm)' }}>
             <div style={{ color: '#F59E0B', display: 'flex', gap: '2px' }}>

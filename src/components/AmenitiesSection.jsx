@@ -19,13 +19,13 @@ export default function AmenitiesSection() {
       title: 'Uninterrupted Academic Tech',
       icon: <Wifi size={22} />,
       desc: 'Designed for engineering, medical & degree students who need flawless connectivity for assignments and online exams.',
-      bullets: ['High-Speed Fiber Wi-Fi Routers', '24/7 Power Backup Generator', 'Quiet Study Workstations']
+      bullets: ['High-Speed Fiber Wi-Fi Routers', '24/7 Power Backup Generator']
     },
     {
       title: 'Comfort & Daily Convenience',
       icon: <RefreshCw size={22} />,
       desc: 'No stress about daily chores. Focus purely on your studies while our staff handles maintenance and cleanliness.',
-      bullets: ['Daily Room & Bathroom Cleaning', 'Automatic Washing Machines', '24/7 Solar Hot Water']
+      bullets: ['Daily Room & Bathroom Cleaning']
     }
   ];
 

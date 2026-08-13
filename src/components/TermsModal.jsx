@@ -1,5 +1,5 @@
 import React from 'react';
-import { X, ShieldCheck, FileText, CheckCircle } from 'lucide-react';
+import { X, FileText } from 'lucide-react';
 
 export default function TermsModal({ isOpen, onClose }) {
   if (!isOpen) return null;
@@ -18,19 +18,19 @@ export default function TermsModal({ isOpen, onClose }) {
         </div>
 
         <h2 style={{ fontSize: '1.8rem', marginBottom: '20px', fontFamily: 'var(--font-serif)', color: 'var(--text-main)' }}>
-          Willow Nest Terms & Conditions
+          Ivory Nest Terms & Conditions
         </h2>
 
         <div style={{ fontSize: '0.92rem', color: 'var(--text-muted)', lineHeight: '1.65', display: 'flex', flexDirection: 'column', gap: '20px' }}>
           
           <p>
-            Welcome to <strong>Willow Nest Girls PG</strong> (operated by Srinivas G), situated near BMS Engineering College, Basavanagudi, Bengaluru. By taking admission or residing at Willow Nest, students and parents agree to adhere to the following housing rules designed for maximum safety, hygiene, and harmony.
+            Welcome to <strong>Ivory Nest Girls PG</strong> (operated by Srinivas G), situated at 1358/A, 6th cross, Opp Ashoknagar post office, Ashoknagar Banashankari Bangalore - 560050. By taking admission or residing at Ivory Nest, residents and parents agree to adhere to the following housing rules designed for maximum safety, hygiene, and harmony.
           </p>
 
           <div>
             <h4 style={{ color: 'var(--text-main)', fontSize: '1.05rem', marginBottom: '6px' }}>1. Safety & Gate Timings</h4>
             <p>
-              To ensure 100% security for female residents, main biometric gates are secured. Standard gate closing time is 10:00 PM. Prior written approval or phone confirmation from parents is mandatory for late entry due to college labs or official events.
+              To ensure 100% security for female residents, main biometric gates are secured. Standard gate closing time is 10:00 PM. Prior written approval or phone confirmation from parents/guardian is mandatory for late entry due to college/work requirements.
             </p>
           </div>
 
@@ -64,7 +64,7 @@ export default function TermsModal({ isOpen, onClose }) {
 
           <div style={{ padding: '16px', backgroundColor: 'var(--bg-main)', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-light)' }}>
             <div style={{ fontWeight: '700', color: 'var(--text-main)', marginBottom: '4px' }}>Questions regarding housing policy?</div>
-            <div>Contact Owner Srinivas G directly at <strong>8884888805</strong> or email support at Willow Nest Basavanagudi.</div>
+            <div>Contact Owner Srinivas G directly at <strong>7996151633</strong> or email support at Ivory Nest Banashankari.</div>
           </div>
 
         </div>

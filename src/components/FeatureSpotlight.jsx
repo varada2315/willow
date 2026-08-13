@@ -3,10 +3,10 @@ import { CheckCircle2, Award, ArrowRight } from 'lucide-react';
 
 export default function FeatureSpotlight() {
   const highlights = [
-    '3-Minute safe walking distance to BMSCE main gate',
+    'Prime location opposite Ashoknagar post office, Banashankari',
     '24/7 Security warden with biometric access control',
     '3 Home-style freshly prepared meals daily (South & North Indian)',
-    'High-speed Wi-Fi routers on every floor for exams & research',
+    'High-speed Wi-Fi routers on every floor for study & remote work',
     'Daily professional housekeeping & hygienic room maintenance',
     'Power backup for light, fan & study desk during power cuts'
   ];
@@ -18,13 +18,13 @@ export default function FeatureSpotlight() {
         {/* Content Side */}
         <div className="split-card-content">
           <div className="sub-tag">
-            <Award size={16} /> CRAFTED FOR FEMALE STUDENTS
+            <Award size={16} /> CRAFTED FOR FEMALE RESIDENTS
           </div>
           <h2 className="split-card-title">
             Quality Living That Feels Just Like Home
           </h2>
           <p className="split-card-desc">
-            We understand that moving to college is a big step. As a premier <strong>safe girls PG near BMSCE</strong> and <strong>best female student accommodation in Basavanagudi</strong>, Willow Nest provides a warm, protective, and academically focused environment so students can thrive while parents enjoy complete peace of mind.
+            Moving to a new locality is a big step. As a premier <strong>safe girls PG in Banashankari</strong>, <strong>Ivory Nest Girls PG</strong> provides a warm, protective, and comfortable environment so residents can thrive while parents enjoy complete peace of mind.
           </p>
 
           <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '12px', marginBottom: '32px' }}>
@@ -38,7 +38,7 @@ export default function FeatureSpotlight() {
 
           <div>
             <a 
-              href="https://wa.me/918884888805?text=Hello%20Srinivas%20Sir,%20I%20would%20like%20to%20schedule%20a%20visit%20to%20Willow%20Nest%20Girls%20PG." 
+              href="https://wa.me/917996151633?text=Hello%20Srinivas%20Sir,%20I%20would%20like%20to%20schedule%20a%20visit%20to%20Ivory%20Nest%20Girls%20PG." 
               target="_blank" 
               rel="noreferrer"
               className="btn btn-primary"
@@ -52,8 +52,8 @@ export default function FeatureSpotlight() {
         {/* Visual Side */}
         <div className="split-card-visual">
           <img 
-            src="/images/girls-pg-hero-room.png" 
-            alt="safe-girls-pg-near-bmsce" 
+            src="/images/pg-single-twin-room.jpg" 
+            alt="safe-girls-pg-ashoknagar-banashankari" 
             className="split-card-img"
           />
           
@@ -65,10 +65,10 @@ export default function FeatureSpotlight() {
                   LOCATION ADVANTAGE
                 </div>
                 <div style={{ fontSize: '1rem', fontWeight: '700', color: 'var(--text-main)' }}>
-                  Basavanagudi, Near BMSCE Gate
+                  Ashoknagar, Banashankari
                 </div>
                 <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)' }}>
-                  Female Student Accommodation Specialist
+                  Female Accommodation Specialist
                 </div>
               </div>
               <div style={{
@@ -79,7 +79,7 @@ export default function FeatureSpotlight() {
                 fontSize: '0.82rem',
                 fontWeight: '700'
               }}>
-                8884888805
+                7996151633
               </div>
             </div>
           </div>

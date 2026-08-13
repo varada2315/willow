@@ -9,7 +9,7 @@ export default function PricingSection() {
       type: 'single',
       name: 'Single Executive Room',
       tagline: 'Private Quiet Space for High Focus',
-      rent: '₹18,500',
+      rent: '₹20,000',
       period: '/ month',
       popular: false,
       deposit: '2 Months Refundable Deposit',
@@ -28,7 +28,7 @@ export default function PricingSection() {
       type: 'double',
       name: 'Twin Sharing Deluxe',
       tagline: 'Most Popular among BMSCE Students',
-      rent: '₹13,500',
+      rent: '₹16,000',
       period: '/ month per bed',
       popular: true,
       deposit: '2 Months Refundable Deposit',
@@ -47,7 +47,7 @@ export default function PricingSection() {
       type: 'triple',
       name: 'Triple Sharing Premium',
       tagline: 'Affordable & Super Comfortable',
-      rent: '₹10,500',
+      rent: '₹14,000',
       period: '/ month per bed',
       popular: false,
       deposit: '2 Months Refundable Deposit',
@@ -69,8 +69,8 @@ export default function PricingSection() {
     : pricingPlans.filter(p => p.type === sharingFilter);
 
   const handleBook = (planName) => {
-    const message = encodeURIComponent(`Hello Srinivas Sir, I want to inquire about booking ${planName} at Willow Nest Girls PG near BMSCE.`);
-    window.open(`https://wa.me/918884888805?text=${message}`, '_blank');
+    const message = encodeURIComponent(`Hello Srinivas Sir, I want to inquire about booking ${planName} at Ivory Nest Girls PG in Ashoknagar, Banashankari.`);
+    window.open(`https://wa.me/917996151633?text=${message}`, '_blank');
   };
 
   return (

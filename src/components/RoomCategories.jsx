@@ -6,47 +6,47 @@ export default function RoomCategories() {
       id: 'single',
       badge: 'Maximum Privacy',
       title: 'Single Executive Room',
-      price: '₹18,500',
+      price: '₹20,000',
       period: '/ month',
       desc: 'Private quiet room with attached bath, ergonomic study desk, bookshelf & private wardrobe.',
-      image: '/images/girls-pg-single-room-basavanagudi.jpg',
+      image: '/images/pg-single-twin-room.jpg',
       amenities: ['Attached Washroom', 'Private Study Table', 'High-Speed Wi-Fi', '3 Meals Daily']
     },
     {
       id: 'double',
       badge: 'Most Popular',
       title: 'Twin Sharing Deluxe',
-      price: '₹13,500',
+      price: '₹16,000',
       period: '/ month per bed',
       desc: 'Spacious room with dual individual study setups, large double wardrobes & attached bathroom.',
-      image: '/images/girls-pg-double-room-basavanagudi.jpg',
+      image: '/images/pg-double-sharing-room.jpg',
       amenities: ['Individual Wardrobes', 'Twin Study Tables', 'Daily Housekeeping', '24/7 Hot Water']
     },
     {
       id: 'triple',
       badge: 'Budget Friendly',
       title: 'Triple Sharing Premium',
-      price: '₹10,500',
+      price: '₹14,000',
       period: '/ month per bed',
-      desc: 'Cozy, well-ventilated shared room designed for comfortable student living & collaborative study.',
-      image: '/images/girls-pg-hero-room.png',
+      desc: 'Cozy, well-ventilated shared room designed for comfortable living & study.',
+      image: '/images/pg-triple-sharing-room.jpg',
       amenities: ['Individual Lockers', 'Clean Bedding', 'Power Backup', 'Laundry Included']
     },
     {
       id: 'lounge',
-      badge: 'Common Spaces',
-      title: 'Study & Social Lounge',
+      badge: 'Attached Bathroom & Fittings',
+      title: 'Hygiene & Modern Fittings',
       price: 'Included',
-      period: 'for all residents',
-      desc: 'Dedicated silent study hall, high-speed Wi-Fi zone, microwave pantry & serene terrace garden.',
-      image: '/images/girls-pg-dining-food-area.jpg',
-      amenities: ['Silent Study Desks', 'Wi-Fi Routers', 'Water Purifier', 'Common Refrigerator']
+      period: 'in all rooms',
+      desc: 'Western commodes, 24/7 hot water geyser, Orient designer fans & premium ceiling lighting.',
+      image: '/images/pg-attached-bathroom.jpg',
+      amenities: ['Wi-Fi Routers', 'Microwave Pantry', 'Water Purifier', 'Common Refrigerator']
     }
   ];
 
   const whatsappBooking = (title) => {
-    const text = encodeURIComponent(`Hello Srinivas Sir, I am interested in booking/knowing details for ${title} at Willow Nest Girls PG near BMSCE.`);
-    window.open(`https://wa.me/918884888805?text=${text}`, '_blank');
+    const text = encodeURIComponent(`Hello Srinivas Sir, I am interested in booking/knowing details for ${title} at Ivory Nest Girls PG in Ashoknagar, Banashankari.`);
+    window.open(`https://wa.me/917996151633?text=${text}`, '_blank');
   };
 
   return (
@@ -63,7 +63,7 @@ export default function RoomCategories() {
             </h2>
           </div>
           <a 
-            href="https://wa.me/918884888805?text=Hello%20Srinivas%20Sir,%20I%20want%20to%20inquire%20about%20room%20availability%20at%20Willow%20Nest%20Girls%20PG." 
+            href="https://wa.me/917996151633?text=Hello%20Srinivas%20Sir,%20I%20want%20to%20inquire%20about%20room%20availability%20at%20Ivory%20Nest%20Girls%20PG." 
             target="_blank" 
             rel="noreferrer"
             className="btn btn-secondary"
@@ -76,7 +76,7 @@ export default function RoomCategories() {
           {roomTypes.map((room) => (
             <div key={room.id} className="room-card">
               <div className="room-card-img-wrapper">
-                <img src={room.image} alt={`girls-pg-${room.id}-basavanagudi`} className="room-card-img" />
+                <img src={room.image} alt={`girls-pg-${room.id}-banashankari`} className="room-card-img" />
                 <div className="room-badge">{room.badge}</div>
               </div>
               <div className="room-card-body">

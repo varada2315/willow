@@ -7,72 +7,44 @@ export default function GallerySection() {
   const galleryItems = [
     {
       id: 1,
-      title: 'Single Executive Bedroom',
+      title: 'Single / Twin Room with Window & Study Desk',
       category: 'Bedrooms',
-      src: '/images/girls-pg-single-room-basavanagudi.jpg',
+      src: '/images/pg-single-twin-room.jpg',
       span: 'gallery-col-2 gallery-row-2'
     },
     {
       id: 2,
-      title: 'Twin Deluxe Student Room',
+      title: 'Executive Double Sharing Room with Storage',
       category: 'Bedrooms',
-      src: '/images/girls-pg-double-room-basavanagudi.jpg',
+      src: '/images/pg-double-sharing-room.jpg',
       span: 'gallery-col-1 gallery-row-1'
     },
     {
       id: 3,
-      title: 'High-Speed Wi-Fi Study Lounge',
-      category: 'Study Areas',
-      src: '/images/girls-pg-wifi-study-lounge.jpg',
+      title: 'Attached Western Bathroom with Geyser & Shower',
+      category: 'Attached Washroom',
+      src: '/images/pg-attached-bathroom.jpg',
       span: 'gallery-col-1 gallery-row-2'
     },
     {
       id: 4,
-      title: 'Hygienic Homely Dining Hall',
-      category: 'Dining',
-      src: '/images/girls-pg-dining-food-area.jpg',
+      title: 'Triple Sharing Room with Curtains & Study Setup',
+      category: 'Bedrooms',
+      src: '/images/pg-triple-sharing-room.jpg',
       span: 'gallery-col-2 gallery-row-1'
     },
     {
       id: 5,
-      title: 'Clean Attached Bathroom',
-      category: 'Facilities',
-      src: '/images/girls-pg-attached-bathroom.jpg',
+      title: 'Orient Designer Ceiling Fan & Room Fixtures',
+      category: 'Room Fixtures',
+      src: '/images/pg-room-ceiling-fan.jpg',
       span: 'gallery-col-1 gallery-row-1'
     },
     {
       id: 6,
-      title: 'Biometric Access & Security Gate',
-      category: 'Safety',
-      src: '/images/girls-pg-biometric-security.jpg',
-      span: 'gallery-col-1 gallery-row-2'
-    },
-    {
-      id: 7,
-      title: 'Rooftop Terrace Garden Lounge',
-      category: 'Common Spaces',
-      src: '/images/girls-pg-rooftop-terrace.jpg',
-      span: 'gallery-col-2 gallery-row-2'
-    },
-    {
-      id: 8,
-      title: 'Cozy Interior Room Setup',
-      category: 'Bedrooms',
-      src: '/images/girls-pg-hero-room.png',
-      span: 'gallery-col-1 gallery-row-1'
-    },
-    {
-      id: 9,
-      title: 'Freshly Prepared Meals Spread',
-      category: 'Dining',
-      src: '/images/girls-pg-dining-food-area.jpg',
-      span: 'gallery-col-1 gallery-row-1'
-    },
-    {
-      id: 10,
-      title: 'Private Desk & Wardrobe Workspace',
-      category: 'Study Areas',
-      src: '/images/girls-pg-single-room-basavanagudi.jpg',
+      title: 'Coir-on Mattresses & Spacious Wooden Cabinets',
+      category: 'Room Amenities',
+      src: '/images/pg-double-sharing-room.jpg',
       span: 'gallery-col-1 gallery-row-1'
     }
   ];
@@ -86,10 +58,10 @@ export default function GallerySection() {
             <Camera size={16} /> PHOTO GALLERY
           </div>
           <h2 className="section-title" style={{ marginBottom: '14px' }}>
-            Explore Life & Facilities at Willow Nest
+            Explore Life & Facilities at Ivory Nest
           </h2>
           <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem' }}>
-            Take a look at our clean rooms, study lounges, dining areas, and 24/7 security features near BMSCE.
+            Take a look at our clean rooms, study lounges, dining areas, and 24/7 security features in Ashoknagar, Banashankari.
           </p>
         </div>
 

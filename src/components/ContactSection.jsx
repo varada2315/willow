@@ -6,16 +6,16 @@ export default function ContactSection({ onOpenTerms }) {
     name: '',
     phone: '',
     sharingType: 'Double Sharing',
-    year: '1st Year BMSCE',
+    year: '1st Year Student',
     message: ''
   });
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const text = encodeURIComponent(
-      `Hello Srinivas Sir,\nMy name is ${formData.name}.\nPhone: ${formData.phone}\nInterested in: ${formData.sharingType}\nCollege Year: ${formData.year}\nMessage: ${formData.message}`
+      `Hello Srinivas Sir,\nMy name is ${formData.name}.\nPhone: ${formData.phone}\nInterested in: ${formData.sharingType}\nDetails: ${formData.year}\nMessage: ${formData.message}`
     );
-    window.open(`https://wa.me/918884888805?text=${text}`, '_blank');
+    window.open(`https://wa.me/917996151633?text=${text}`, '_blank');
   };
 
   return (
@@ -31,7 +31,7 @@ export default function ContactSection({ onOpenTerms }) {
               Book Your Visit or Reserve a Room Today
             </h2>
             <p style={{ color: 'var(--text-muted)', fontSize: '0.98rem', lineHeight: '1.6', marginBottom: '28px' }}>
-              We provide a safe, secure, and homely environment for female students studying at BMS Engineering College (just a 4-minute walk from the campus!). Reach out to Srinivas Sir directly via Call or WhatsApp.
+              We provide a safe, secure, and homely environment for female students and working professionals at Ashoknagar, Banashankari (Opp. Post Office). Reach out to Srinivas Sir directly via Call or WhatsApp.
             </p>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: '16px', marginBottom: '28px' }}>
@@ -42,7 +42,7 @@ export default function ContactSection({ onOpenTerms }) {
                 </div>
                 <div>
                   <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', textTransform: 'uppercase', fontWeight: '700' }}>Direct Phone Call</div>
-                  <a href="tel:8884888805" style={{ fontSize: '1.2rem', fontWeight: '700', color: 'var(--bg-accent-dark)', textDecoration: 'none' }}>8884888805</a>
+                  <a href="tel:7996151633" style={{ fontSize: '1.2rem', fontWeight: '700', color: 'var(--bg-accent-dark)', textDecoration: 'none' }}>7996151633</a>
                   <div style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>Available 8:00 AM - 9:00 PM</div>
                 </div>
               </div>
@@ -53,8 +53,8 @@ export default function ContactSection({ onOpenTerms }) {
                 </div>
                 <div>
                   <div style={{ fontSize: '0.75rem', color: '#145A2D', textTransform: 'uppercase', fontWeight: '700' }}>Instant WhatsApp Inquiry</div>
-                  <a href="https://wa.me/918884888805?text=Hello%20Srinivas%20Sir,%20I%20want%20details%20for%20Willow%20Nest%20Girls%20PG" target="_blank" rel="noreferrer" style={{ fontSize: '1.05rem', fontWeight: '700', color: '#145A2D', textDecoration: 'underline' }}>
-                    Chat on WhatsApp (8884888805) →
+                  <a href="https://wa.me/917996151633?text=Hello%20Srinivas%20Sir,%20I%20want%20details%20for%20Ivory%20Nest%20Girls%20PG" target="_blank" rel="noreferrer" style={{ fontSize: '1.05rem', fontWeight: '700', color: '#145A2D', textDecoration: 'underline' }}>
+                    Chat on WhatsApp (7996151633) →
                   </a>
                   <div style={{ fontSize: '0.78rem', color: '#276E40' }}>Instant response for room availability & photos</div>
                 </div>
@@ -66,15 +66,15 @@ export default function ContactSection({ onOpenTerms }) {
                 </div>
                 <div>
                   <div style={{ fontSize: '0.75rem', color: 'var(--text-muted)', textTransform: 'uppercase', fontWeight: '700' }}>Location</div>
-                  <div style={{ fontSize: '0.9rem', fontWeight: '700', color: 'var(--text-main)' }}>Basavanagudi, 3-Min Walk to BMSCE Main Gate</div>
-                  <div style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>Bull Temple Road, Bangalore</div>
+                  <div style={{ fontSize: '0.9rem', fontWeight: '700', color: 'var(--text-main)' }}>1358/A, 6th cross, Opp Ashoknagar post office</div>
+                  <div style={{ fontSize: '0.78rem', color: 'var(--text-muted)' }}>Ashoknagar Banashankari Bangalore - 560050</div>
                 </div>
               </div>
 
             </div>
 
             <div style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
-              Need legal details? <button onClick={onOpenTerms} style={{ color: 'var(--bg-accent-dark)', fontWeight: '700', background: 'none', border: 'none', cursor: 'pointer', textDecoration: 'underline' }}>Read Willow Nest Terms & Conditions</button>
+              Need legal details? <button onClick={onOpenTerms} style={{ color: 'var(--bg-accent-dark)', fontWeight: '700', background: 'none', border: 'none', cursor: 'pointer', textDecoration: 'underline' }}>Read Ivory Nest Terms & Conditions</button>
             </div>
 
           </div>
@@ -90,7 +90,7 @@ export default function ContactSection({ onOpenTerms }) {
 
             <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
               <div>
-                <label style={{ display: 'block', fontSize: '0.82rem', fontWeight: '600', marginBottom: '4px', color: 'var(--text-main)' }}>Student / Parent Name *</label>
+                <label style={{ display: 'block', fontSize: '0.82rem', fontWeight: '600', marginBottom: '4px', color: 'var(--text-main)' }}>Student / Resident Name *</label>
                 <input 
                   type="text" 
                   required
@@ -120,17 +120,17 @@ export default function ContactSection({ onOpenTerms }) {
                   onChange={(e) => setFormData({ ...formData, sharingType: e.target.value })}
                   style={{ width: '100%', padding: '10px 14px', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-light)', fontSize: '0.9rem', outline: 'none', backgroundColor: '#FFF' }}
                 >
-                  <option value="Single Executive Room">Single Executive Room (₹18,500/mo)</option>
-                  <option value="Twin Sharing Deluxe">Twin Sharing Deluxe (₹13,500/mo)</option>
-                  <option value="Triple Sharing Premium">Triple Sharing Premium (₹10,500/mo)</option>
+                  <option value="Single Executive Room">Single Executive Room (₹20,000/mo)</option>
+                  <option value="Twin Sharing Deluxe">Twin Sharing Deluxe (₹16,000/mo)</option>
+                  <option value="Triple Sharing Premium">Triple Sharing Premium (₹14,000/mo)</option>
                 </select>
               </div>
 
               <div>
-                <label style={{ display: 'block', fontSize: '0.82rem', fontWeight: '600', marginBottom: '4px', color: 'var(--text-main)' }}>College / Academic Year</label>
+                <label style={{ display: 'block', fontSize: '0.82rem', fontWeight: '600', marginBottom: '4px', color: 'var(--text-main)' }}>College / Workplace</label>
                 <input 
                   type="text" 
-                  placeholder="e.g. BMSCE 1st Year CS / Biotech" 
+                  placeholder="e.g. Student / Working Professional" 
                   value={formData.year}
                   onChange={(e) => setFormData({ ...formData, year: e.target.value })}
                   style={{ width: '100%', padding: '10px 14px', borderRadius: 'var(--radius-sm)', border: '1px solid var(--border-light)', fontSize: '0.9rem', outline: 'none' }}

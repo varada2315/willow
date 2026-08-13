@@ -7,11 +7,11 @@ export default defineConfig({
   server: {
     port: 3098,
     host: '0.0.0.0',
-    allowedHosts: ['willow', 'willow.cyberpunk.co.in']
+    allowedHosts: ['willow', 'willow.cyberpunk.co.in', 'bmscegirlspg.in', 'www.bmscegirlspg.in']
   },
   preview: {
     port: 3098,
     host: '0.0.0.0',
-    allowedHosts: ['willow', 'willow.cyberpunk.co.in']
+    allowedHosts: ['willow', 'willow.cyberpunk.co.in', 'bmscegirlspg.in', 'www.bmscegirlspg.in']
   }
 })
